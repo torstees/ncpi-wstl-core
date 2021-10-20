@@ -24,6 +24,7 @@ Objects passed to these core functions must conform to the specified form. All k
 Because we are dealing with research data, we'll use Participant to differentiant from FHIR's Patient. 
 
 | Core Library Term | Description | FHIR Target | Values/Format Accepted |
+| :---------------: | :---------: | :---------: | :--------------------: |
 | participant_id | The subject/participant ID | (required) This will be used as the ID for the patient object and all references to it within the final bundle |
 | dob | Date of Birth | (optional) This may be a complete date or just the year | YYYY-MM-DD  |
 | gender | Gender | (optional) Administrative gender | [hl7 administrative gender](http://hl7.org/fhir/R4/valueset-administrative-gender.html) male, female, other, unknown | |
